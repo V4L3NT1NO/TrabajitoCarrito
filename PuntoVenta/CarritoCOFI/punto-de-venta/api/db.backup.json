@@ -1,0 +1,541 @@
+{
+  "usuarios": [],
+  "ventas": [
+    {
+      "Venta_id": null,
+      "monto_total": 7.56,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 6.48,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 27,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 72.36,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 57.24,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 34.56,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 313.2,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 313.2,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 313.2,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 313.2,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 216,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 216,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 108,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 604.8,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 39.96,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 39.96,
+      "nit": "",
+      "usuario_id": 1
+    },
+    {
+      "Venta_id": null,
+      "monto_total": 39.96,
+      "nit": "",
+      "usuario_id": 1
+    }
+  ],
+  "detalles": [
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 2,
+      "cantidad": 1,
+      "precio_unitario": 7
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 12,
+      "cantidad": 1,
+      "precio_unitario": 6
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 3,
+      "cantidad": 5,
+      "precio_unitario": 5
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 2,
+      "cantidad": 5,
+      "precio_unitario": 7
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 1,
+      "cantidad": 1,
+      "precio_unitario": 8
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 22,
+      "cantidad": 1,
+      "precio_unitario": 15
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 9,
+      "cantidad": 1,
+      "precio_unitario": 9
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 3,
+      "cantidad": 5,
+      "precio_unitario": 5
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 16,
+      "cantidad": 1,
+      "precio_unitario": 3
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 30,
+      "cantidad": 1,
+      "precio_unitario": 25
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 2,
+      "cantidad": 2,
+      "precio_unitario": 7
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 5,
+      "cantidad": 3,
+      "precio_unitario": 6
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 4,
+      "cantidad": 29,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 4,
+      "cantidad": 29,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 8,
+      "cantidad": 29,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 8,
+      "cantidad": 29,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 8,
+      "cantidad": 20,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 8,
+      "cantidad": 20,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 8,
+      "cantidad": 10,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 7,
+      "cantidad": 80,
+      "precio_unitario": 7
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 14,
+      "cantidad": 1,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 14,
+      "cantidad": 1,
+      "precio_unitario": 10
+    },
+    {
+      "detalles_id": null,
+      "venta_id": 1,
+      "producto_id": 14,
+      "cantidad": 1,
+      "precio_unitario": 10
+    }
+  ],
+  "productos": [
+    {
+      "producto_id": 1,
+      "nombre": "Coca Cola 600ml",
+      "categoria_id": 1,
+      "precio": 8,
+      "stock": 50
+    },
+    {
+      "producto_id": 2,
+      "nombre": "Pepsi 600ml",
+      "categoria_id": 1,
+      "precio": 7,
+      "stock": 40
+    },
+    {
+      "producto_id": 3,
+      "nombre": "Agua Mineral 500ml",
+      "categoria_id": 1,
+      "precio": 5,
+      "stock": 60
+    },
+    {
+      "producto_id": 4,
+      "nombre": "Jugo de Naranja",
+      "categoria_id": 1,
+      "precio": 10,
+      "stock": 30
+    },
+    {
+      "producto_id": 5,
+      "nombre": "Galletas Oreo",
+      "categoria_id": 2,
+      "precio": 6,
+      "stock": 80
+    },
+    {
+      "producto_id": 6,
+      "nombre": "Papas Fritas",
+      "categoria_id": 2,
+      "precio": 5,
+      "stock": 100
+    },
+    {
+      "producto_id": 7,
+      "nombre": "Doritos",
+      "categoria_id": 2,
+      "precio": 7,
+      "stock": 10
+    },
+    {
+      "producto_id": 8,
+      "nombre": "Yogurt Natural",
+      "categoria_id": 3,
+      "precio": 10,
+      "stock": 20
+    },
+    {
+      "producto_id": 9,
+      "nombre": "Leche Entera",
+      "categoria_id": 3,
+      "precio": 9,
+      "stock": 40
+    },
+    {
+      "producto_id": 10,
+      "nombre": "Queso Fresco",
+      "categoria_id": 3,
+      "precio": 15,
+      "stock": 25
+    },
+    {
+      "producto_id": 11,
+      "nombre": "Pan de Molde",
+      "categoria_id": 4,
+      "precio": 8,
+      "stock": 35
+    },
+    {
+      "producto_id": 12,
+      "nombre": "Pan Dulce",
+      "categoria_id": 4,
+      "precio": 6,
+      "stock": 50
+    },
+    {
+      "producto_id": 13,
+      "nombre": "Croissant",
+      "categoria_id": 4,
+      "precio": 12,
+      "stock": 20
+    },
+    {
+      "producto_id": 14,
+      "nombre": "Chocolate",
+      "categoria_id": 5,
+      "precio": 10,
+      "stock": 60
+    },
+    {
+      "producto_id": 15,
+      "nombre": "Caramelos",
+      "categoria_id": 5,
+      "precio": 2,
+      "stock": 200
+    },
+    {
+      "producto_id": 16,
+      "nombre": "Chicles",
+      "categoria_id": 5,
+      "precio": 3,
+      "stock": 150
+    },
+    {
+      "producto_id": 17,
+      "nombre": "Arroz 1kg",
+      "categoria_id": 6,
+      "precio": 12,
+      "stock": 40
+    },
+    {
+      "producto_id": 18,
+      "nombre": "Azúcar 1kg",
+      "categoria_id": 6,
+      "precio": 11,
+      "stock": 35
+    },
+    {
+      "producto_id": 19,
+      "nombre": "Aceite 900ml",
+      "categoria_id": 6,
+      "precio": 18,
+      "stock": 25
+    },
+    {
+      "producto_id": 20,
+      "nombre": "Detergente",
+      "categoria_id": 7,
+      "precio": 20,
+      "stock": 30
+    },
+    {
+      "producto_id": 21,
+      "nombre": "Jabón en Barra",
+      "categoria_id": 7,
+      "precio": 5,
+      "stock": 60
+    },
+    {
+      "producto_id": 22,
+      "nombre": "Limpiavidrios",
+      "categoria_id": 7,
+      "precio": 15,
+      "stock": 15
+    },
+    {
+      "producto_id": 23,
+      "nombre": "Shampoo",
+      "categoria_id": 8,
+      "precio": 22,
+      "stock": 25
+    },
+    {
+      "producto_id": 24,
+      "nombre": "Pasta Dental",
+      "categoria_id": 8,
+      "precio": 10,
+      "stock": 40
+    },
+    {
+      "producto_id": 25,
+      "nombre": "Desodorante",
+      "categoria_id": 8,
+      "precio": 18,
+      "stock": 20
+    },
+    {
+      "producto_id": 26,
+      "nombre": "Helado de Vainilla",
+      "categoria_id": 9,
+      "precio": 25,
+      "stock": 15
+    },
+    {
+      "producto_id": 27,
+      "nombre": "Pizza Congelada",
+      "categoria_id": 9,
+      "precio": 30,
+      "stock": 10
+    },
+    {
+      "producto_id": 28,
+      "nombre": "Nuggets de Pollo",
+      "categoria_id": 9,
+      "precio": 28,
+      "stock": 12
+    },
+    {
+      "producto_id": 29,
+      "nombre": "Empanadas Congeladas",
+      "categoria_id": 9,
+      "precio": 20,
+      "stock": 18
+    },
+    {
+      "producto_id": 30,
+      "nombre": "Helado de Chocolate",
+      "categoria_id": 9,
+      "precio": 25,
+      "stock": 15
+    },
+    {
+      "producto_id": 31,
+      "nombre": "Gaseosa Sprite 600ml",
+      "categoria_id": 1,
+      "precio": 8,
+      "stock": 35
+    },
+    {
+      "producto_id": 32,
+      "nombre": "Galletas Chips",
+      "categoria_id": 2,
+      "precio": 7,
+      "stock": 60
+    },
+    {
+      "producto_id": 33,
+      "nombre": "Queso Parmesano",
+      "categoria_id": 3,
+      "precio": 20,
+      "stock": 10
+    }
+  ],
+  "categorias": [
+    {
+      "categoria_id": 1,
+      "nombre": "Bebidas"
+    },
+    {
+      "categoria_id": 2,
+      "nombre": "Snacks"
+    },
+    {
+      "categoria_id": 3,
+      "nombre": "Lácteos"
+    },
+    {
+      "categoria_id": 4,
+      "nombre": "Panadería"
+    },
+    {
+      "categoria_id": 5,
+      "nombre": "Dulces"
+    },
+    {
+      "categoria_id": 6,
+      "nombre": "Abarrotes"
+    },
+    {
+      "categoria_id": 7,
+      "nombre": "Limpieza"
+    },
+    {
+      "categoria_id": 8,
+      "nombre": "Cuidado Personal"
+    },
+    {
+      "categoria_id": 9,
+      "nombre": "Congelados"
+    }
+  ]
+}

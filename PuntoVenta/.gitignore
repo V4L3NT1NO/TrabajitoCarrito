@@ -1,0 +1,10 @@
+# Visual Studio
+.vs/
+PuntoDeVentaWPF/bin/
+PuntoDeVentaWPF/obj/
+CarritoCOFI/punto-de-venta/api/node_modules/
+*.user
+*.suo
+*.cache
+*.log
+*.DS_Store

@@ -1,0 +1,13 @@
+<Window x:Class="PuntoDeVentaWPF.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ingreso de PIN" Height="200" Width="350"
+        WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="20">
+        <TextBlock Text="Ingrese su PIN:" FontSize="16" Margin="0,0,0,10"/>
+        
+        <PasswordBox x:Name="PinBox" Margin="0,0,0,20"/> 
+        
+        <Button Content="Ingresar" Click="BtnIngresar_Click" Padding="10"/>
+    </StackPanel>
+</Window>
