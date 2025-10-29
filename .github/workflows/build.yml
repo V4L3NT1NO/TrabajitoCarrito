@@ -17,7 +17,7 @@ jobs:
           distribution: 'zulu'
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Deshabilita clones superficiales para un mejor análisis
+          fetch-depth: 0 # Necesario para un análisis de historial completo
       - name: Cache SonarQube Cloud packages
         uses: actions/cache@v4
         with:
@@ -42,7 +42,11 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }} # Expone el Secreto
         shell: powershell
         run: |
-          # **CORRECCIÓN:** Se usa $env:SONAR_TOKEN para Powershell.
+          # 1. Inicia el pre-procesamiento del escáner
           ${{ runner.temp }}\scanner\dotnet-sonarscanner begin /k:"V4L3NT1NO_TrabajitoCarrito" /o:"v4l3nt1no" /d:sonar.token="$env:SONAR_TOKEN"
-          dotnet build
+          
+          # 2. Construye el proyecto (usando la ruta corregida)
+          dotnet build PuntoVenta\CarritoCOFI\punto-de-venta\PuntoDeVentaWPF\PuntoDeVentaWPF.csproj
+          
+          # 3. Finaliza el escaneo y sube los resultados a SonarCloud
           ${{ runner.temp }}\scanner\dotnet-sonarscanner end /d:sonar.token="$env:SONAR_TOKEN"
