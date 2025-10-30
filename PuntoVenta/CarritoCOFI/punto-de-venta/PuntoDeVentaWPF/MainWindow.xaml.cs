@@ -12,6 +12,9 @@ namespace PuntoDeVentaWPF
 {
     public partial class MainWindow : Window
     {
+        // 🚨 HALLAZGO #3 CORREGIDO: Se define la constante para el literal "Error"
+        private const string TITULO_ERROR = "Error";
+        
         private readonly string API_URL = "http://localhost:3000";
         private readonly Carrito _carrito;
 
@@ -61,7 +64,8 @@ namespace PuntoDeVentaWPF
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"No se pudieron obtener las categorías:\n{ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show($"No se pudieron obtener las categorías:\n{ex.Message}", TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -72,7 +76,8 @@ namespace PuntoDeVentaWPF
             if (tecladoId.ShowDialog() != true) return;
             if (!int.TryParse(tecladoId.Resultado, out int idProducto) || idProducto <= 0)
             {
-                MessageBox.Show("ID inválido.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show("ID inválido.", TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
@@ -81,14 +86,16 @@ namespace PuntoDeVentaWPF
             if (tecladoCantidad.ShowDialog() != true) return;
             if (!int.TryParse(tecladoCantidad.Resultado, out int cantidad) || cantidad <= 0)
             {
-                MessageBox.Show("Cantidad inválida.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show("Cantidad inválida.", TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
             var (ok, result) = await _carrito.AgregarProductoAsync(idProducto, cantidad);
             if (!ok)
             {
-                MessageBox.Show(result.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show(result.ToString(), TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
@@ -115,12 +122,14 @@ namespace PuntoDeVentaWPF
                 }
                 else
                 {
-                    MessageBox.Show(res.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    // Uso de la constante
+                    MessageBox.Show(res.ToString(), TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"No se pudo escanear producto:\n{ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show($"No se pudo escanear producto:\n{ex.Message}", TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -141,7 +150,8 @@ namespace PuntoDeVentaWPF
             }
             else
             {
-                MessageBox.Show(msg, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show(msg, TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -156,7 +166,8 @@ namespace PuntoDeVentaWPF
             }
             else
             {
-                MessageBox.Show(msg, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                // Uso de la constante
+                MessageBox.Show(msg, TITULO_ERROR, MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
@@ -227,4 +238,3 @@ namespace PuntoDeVentaWPF
         }
     }
 }
-
